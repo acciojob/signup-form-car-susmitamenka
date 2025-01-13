@@ -13,58 +13,64 @@
 		<tr>
 		<td>Name</td>
 		<td>
-			<input type="text" required="yes" id="name" placeholder="name">
+			<input type="text" required id="name" placeholder="name">
 		</td>
 		</tr>
 		<tr>
 		<td>Email</td>
 		<td>
-			<input type="email" required="yes" id="email" placeholder="email">
+			<input type="email" required id="email" placeholder="email">
 		</td>
 		</tr>
 		<tr>
 		<td>Gender</td>
 		<td>
 			 <label for="gender_m">Male</label>
-			<input type="radio" required="yes" name="male"id="male" >
+			<input type="radio" required name="male"id="male" >
 			<label for="gender_f">Female</label>
-			<input type="radio" required="yes"name="female">
+			<input type="radio" required name="female">
 		</td>
 		</tr>
 		<tr>
 		<td>Car Brand</td>
 		<td>
-			<input type="select" required="yes" id="car" placeholder="please choose an option">
+			<!-- <input type="select" required id="car" placeholder="please choose an option"> -->
+			<select id="cars" name="cars" required >
+		<option>--please choose an option--</option>
+		<option value="bmw">BMW</option>
+		<option value="audi">Audi</option>
+		<option value="mercedez">Mercedez</option>
+	</select><br>
 		</td>
 		</tr>
 		<tr>
 		<td>Age</td>
 		<td>
-			<input type="number" required="yes" id="age" placeholder="age">
+			<input type="number" required id="age" placeholder="age">
 		</td>
 		</tr>
 		<tr>
 		<td>DOB</td>
 		<td>
-			<input type="date" required="yes" id="dob" placeholder="">
+			<input type="date" required id="dob" placeholder="">
 		</td>
 		</tr>
 		<tr>
 		<td>phone number</td>
 		<td>
-			<input type="tel" required="no" id="tel" placeholder="xxx-xxx-xxxx">
+			<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
 		</td>
 		</tr>
 		<tr>
 		<td>Password</td>
 		<td>
-			<input type="password" required="yes" id="password" placeholder="password">
+			<input type="password" required id="password" placeholder="password">
 		</td>
 		</tr>
 		<tr>
 		<td>i agree to the TOS</td>
 		<td>
-			<input type="checkbox" required="yes" id="tos" placeholder="">
+			<input type="checkbox" required id="tos" placeholder="">
 		</td>
 		</tr>
 		</table>
